@@ -8,7 +8,7 @@ public class Kara_Funkcija_lastnosti {
         for (int i = 1; i <= stevilo_zvezdic; i++) {
             System.out.print("*");
         }
-
+        System.out.println();
     }
 
     public static void main(String[] args) {
@@ -20,11 +20,9 @@ public class Kara_Funkcija_lastnosti {
         }
         for (int i = 1; i <= n; i++) {
             narisi_vrstico(n - i, i * 2 - 1);
-            System.out.println();
         }
         for (int i = n - 1; i >= 1; i--) {
             narisi_vrstico(n - i, i * 2 - 1);
-            System.out.println();
         }
     }
 }
